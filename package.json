@@ -1,0 +1,35 @@
+{
+  "name": "phonepe-mcp",
+  "version": "0.0.1",
+  "description": "Unofficial Model Context Protocol server for PhonePe Payments API",
+  "main": "dist/server.js",
+  "bin": {
+    "phonepe-mcp": "./dist/server.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/server.ts",
+    "test": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "phonepe",
+    "payments",
+    "claude",
+    "ai",
+    "india",
+    "fintech"
+  ],
+  "author": "Nirav Gondaliya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niravzxv/phonepe-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niravzxv/phonepe-mcp/issues"
+  },
+  "homepage": "https://github.com/niravzxv/phonepe-mcp#readme"
+}

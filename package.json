@@ -1,6 +1,6 @@
 {
   "name": "phonepe-mcp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Unofficial Model Context Protocol server for PhonePe Payments API",
   "main": "dist/server.js",
   "bin": {

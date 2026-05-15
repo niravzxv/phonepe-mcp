@@ -7,10 +7,17 @@
     "phonepe-mcp": "./dist/server.js"
   },
   "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/server.ts",
-    "test": "vitest"
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [
     "mcp",
@@ -31,5 +38,18 @@
   "bugs": {
     "url": "https://github.com/niravzxv/phonepe-mcp/issues"
   },
-  "homepage": "https://github.com/niravzxv/phonepe-mcp#readme"
+  "homepage": "https://github.com/niravzxv/phonepe-mcp#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
 }

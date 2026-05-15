@@ -4,7 +4,7 @@
   "description": "Unofficial Model Context Protocol server for PhonePe Payments API",
   "main": "dist/server.js",
   "bin": {
-    "phonepe-mcp": "./dist/server.js"
+    "phonepe-mcp": "dist/server.js"
   },
   "type": "module",
   "files": [
